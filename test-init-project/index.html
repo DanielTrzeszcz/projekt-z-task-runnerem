@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Zapewniamy, że tło obejmuje pełną szerokość strony */
+        .full-width-background {
+            width: 100%;
+            background-color: #f7f7f7;
+            padding: 40px 0;
+        }
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Golden</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mobile-menu">
+                <ul class="navbar-nav ms-auto">  <!-- Dodanie klasy ms-auto do ul -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+     <div class="container-fluid bg-image d-flex flex-column align-items-center justify-content-center text-white text-center"
+        style="background: url('https://i.postimg.cc/T1p3yv1N/pexels-pixabay-531602.jpg') no-repeat center center/cover; height: 700px;">
+        <p class="small-text">Welcome to our studio</p>
+        <h1 class="big-text">It's nice to meet you</h1>
+        <a href="#" class="btn btn-warning btn-lg mt-3">Tell me more</a>
+    </div>
+    <div class="container custom-container ">
+        <!-- Nagłówek na środku z marginesem -->
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h2 class="mt-5 mb-4">Services</h2> <!-- Dodano marginesy górny (mt-5) i dolny (mb-4) -->
+                <h6>Proin iaculis purus consequat sem cure.</h6>
+            </div>
+        </div>
+    
+        <div class="row">
+            <!-- Pierwsza karta -->
+            <div class="col-md-4 col-12 d-flex justify-content-center mb-4">
+                <div class="card p-3 w-100 text-center">
+                    <div class="d-flex justify-content-center mb-3">
+                        <i class="fa-regular fa-circle-user fa-3x"></i> <!-- Ikona nad card-body -->
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">E-Commerce</h3>
+                        <p class="card-text">Zapewniamy ekspresową dostawę na terenie całego kraju.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Druga karta -->
+            <div class="col-md-4 col-12 d-flex justify-content-center mb-4">
+                <div class="card p-3 w-100 text-center">
+                    <div class="d-flex justify-content-center mb-3">
+                        <i class="fa-regular fa-circle-down fa-3x"></i> <!-- Ikona nad card-body -->
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Responsive Web</h3>
+                        <p class="card-text">Gwarantujemy bezpieczne transakcje online i offline.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Trzecia karta -->
+            <div class="col-md-4 col-12 d-flex justify-content-center mb-4">
+                <div class="card p-3 w-100 text-center">
+                    <div class="d-flex justify-content-center mb-3">
+                        <i class="fas fa-life-ring fa-3x"></i> <!-- Ikona nad card-body -->
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Web Security</h3>
+                        <p class="card-text">Nasza obsługa klienta jest dostępna przez całą dobę.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="full-width-background">
+        <div class="container">
+            <!-- Nagłówek i opis sekcji -->
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h2>Nasze Projekty</h2>
+                    <p>Oto przykłady naszych najlepszych projektów, które realizowaliśmy. Każdy z nich jest unikalny i dopasowany do indywidualnych potrzeb naszych klientów.</p>
+                </div>
+            </div>
+        
+            <div class="row text-center">
+                <!-- Pierwszy rząd -->
+                <div class="col-md-4 col-12 mb-4">
+                    <div class="card">
+                        <img src="https://i.postimg.cc/Gtqmthby/pexels-miroalt-176382.jpg" class="card-img-top" alt="Image 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">Opis projektu 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 mb-4">
+                    <div class="card">
+                        <img src="https://i.postimg.cc/FRhvS5Wg/pexels-jacub-gomez-447561-1168742.jpg" class="card-img-top" alt="Image 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Opis projektu 2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 mb-4">
+                    <div class="card">
+                        <img src="https://i.postimg.cc/qMWdLCD7/pexels-pixabay-206359.jpg" class="card-img-top" alt="Image 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">Opis projektu 3</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Drugi rząd -->
+                <div class="col-md-4 col-12 mb-4">
+                    <div class="card">
+                        <img src="https://i.postimg.cc/1X4L09p6/pexels-pixabay-414247.jpg" class="card-img-top" alt="Image 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 4</h5>
+                            <p class="card-text">Opis projektu 4</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 mb-4">
+                    <div class="card">
+                        <img src="https://i.postimg.cc/xdR7Wk5M/pexels-pok-rie-33563-130879.jpg" class="card-img-top" alt="Image 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 5</h5>
+                            <p class="card-text">Opis projektu 5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 mb-4">
+                    <div class="card">
+                        <img src="https://i.postimg.cc/xj4rfz2P/pexels-riciardus-307008.jpg" class="card-img-top" alt="Image 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 6</h5>
+                            <p class="card-text">Opis projektu 6</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SOCIAL MEDIA -->
+    <div class="d-flex justify-content-between align-items-center" style="height: 100px;">
+        <span class="text-dark">Copyright</span> <!-- Tekst po lewej stronie -->
+        <div class="d-flex justify-content-center w-100 gap-4"> <!-- Zwiększony odstęp między ikonami -->
+            <a href="#" class="text-dark"><i class="fab fa-twitter fa-3x"></i></a>
+            <a href="#" class="text-dark"><i class="fab fa-facebook fa-3x"></i></a>
+            <a href="#" class="text-dark"><i class="fab fa-pinterest fa-3x"></i></a>
+            <a href="#" class="text-dark"><i class="fab fa-google fa-3x"></i></a>
+        </div>
+    </div>
+<script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
